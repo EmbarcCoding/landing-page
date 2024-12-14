@@ -1,6 +1,7 @@
 .flex-container {
     display: flex;
     flex-direction: column; 
+    border: 0px;
 }
 
 .subtext-top{
@@ -24,6 +25,23 @@
 .header-text {
     font-size: 10pt;
     color: white;
+}
+
+#second-block{
+    display: flex;
+    flex-direction: row; 
+}
+
+.container {
+    display: flex;             /* Enables flexbox */
+    justify-content: center;   /* Centers horizontally */
+    align-items: center;       /* Centers vertically */;             /* Full viewport height */
+}
+
+.centered {
+    background: lightblue;     /* Just for visibility */
+    padding: 20px;
+    border: 1px solid black;
 }
 
 #second-block {
