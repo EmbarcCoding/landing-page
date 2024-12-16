@@ -47,11 +47,12 @@
     justify-content: center;
 }
 
-.subtext-mid {
+.image-mid {
     font-size: 8pt;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px #3882f6;
 }
 .quote {
     background-color: #e5e7eb;
