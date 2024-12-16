@@ -3,20 +3,6 @@
     flex-direction: column; 
 }
 
-.subtext-top{
-    font-size: 8px;
-    color: white;
-}
-
-.subtext-mid {
-    font-size: 8pt;
-}
-
-.main-header {
-    font-size: 40px;
-    color: white;
-}
-
 #first-block {
     background-color: #1f2937;
 }
@@ -33,8 +19,13 @@
     justify-content: center;
 }
 
-#placeholder {
-    background-color: #c3cadb5f;
+.main-header {
+    font-size: 40px;
+    color: white;
+}
+
+.subtext-top{
+    font-size: 8px;
     color: white;
 }
 
@@ -44,12 +35,24 @@
     font-size: 12px;
 }
 
-.quote {
-    background-color: #e5e7eb;
+#placeholder {
+    background-color: #c3cadb5f;
+    color: white;
+    font-size: 10px;
 }
 
-#third-block {
+.sub-header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.subtext-mid {
+    font-size: 8pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    background-color: #e5e7eb;
 }
