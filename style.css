@@ -9,11 +9,19 @@
 
 #first-block {
     background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 .header-text {
     font-size: 10pt;
     color: white;
+}
+
+.header-text:first-child {
+    margin-right: auto;
 }
 
 #second-block {
