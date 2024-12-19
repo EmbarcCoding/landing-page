@@ -94,6 +94,7 @@
 #smaller-img div {
     background: white;
     border: 3px solid #3882f6;
+    border-radius: 10px;
     margin: 10px;
     height: 80px;
     width: 40px;
